@@ -1,6 +1,21 @@
+/* Button stylings */
+
+.button {
+  background-color: rgb(80, 130, 50);
+}
+
+.button:hover {
+  background-color: green;
+}
+
 /* Panel Callout stylings */
 div.callout {
   margin-top: 1em;
+}
+
+#green {
+  background-color: rgb(250, 255, 185);
+  border: 4px solid rgb(180, 255, 35);
 }
 
 
@@ -8,7 +23,7 @@ div.callout {
 
 footer.on-bottom {
   height: auto;
-  background-color: #333;
+  background-color: #666;
 }
 
 footer.on-bottom ul.vcard {
@@ -22,4 +37,23 @@ footer.on-bottom li {
 
 footer.on-bottom li a {
   color: rgb(180, 255, 35);
+}
+
+div.footer-details {
+  width: 150px;
+  margin-right: 25px;
+}
+
+div.footer-details h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  text-shadow: 0 1px 0 #BBB, 0 -2px 0 #000;  
+}
+
+div.footer-details ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.footer-details li {
+  list-style: none;
 }
