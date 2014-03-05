@@ -1,0 +1,19 @@
+/* Footer stylings */
+
+footer.on-bottom {
+  height: auto;
+  background-color: #333;
+}
+
+footer.on-bottom ul.vcard {
+  border: none;
+  border-right: .3em dotted #999;
+}
+
+footer.on-bottom li {
+  color: white;
+}
+
+footer.on-bottom li a {
+  color: rgb(180, 255, 35);
+}
