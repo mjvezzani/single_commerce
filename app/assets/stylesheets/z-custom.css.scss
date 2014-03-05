@@ -18,6 +18,11 @@ div.callout {
   border: 4px solid rgb(180, 255, 35);
 }
 
+/* Midpage stylings */
+
+div.backfill {
+  background-color: yellow;
+}
 
 /* Footer stylings */
 
@@ -29,6 +34,8 @@ footer.on-bottom {
 footer.on-bottom ul.vcard {
   border: none;
   border-right: .3em dotted #999;
+  margin-top: .4em;
+  margin-bottom: 5px;
 }
 
 footer.on-bottom li {
@@ -39,12 +46,16 @@ footer.on-bottom li a {
   color: rgb(180, 255, 35);
 }
 
+footer.on-bottom li a:hover {
+  color: rgb(240, 255, 180);
+}
+
 div.footer-details {
   width: 150px;
   margin-right: 25px;
 }
 
-div.footer-details h1, h2, h3, h4, h5, h6 {
+div.footer-details > h3 {
   color: #444;
   text-shadow: 0 1px 0 #BBB, 0 -2px 0 #000;  
 }
