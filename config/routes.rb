@@ -1,4 +1,5 @@
 SingleCommerce::Application.routes.draw do
+  devise_for :admins
   get "/about" => 'main_pages#about'
   get "/contact" => 'main_pages#contact'
   get "/products" => 'main_pages#products'
