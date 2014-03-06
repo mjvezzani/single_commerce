@@ -28,6 +28,11 @@
           <li><a href="#">Messages</a></li>
         </ul>
 
+        <ul class="left">
+          <li><%= link_to "Signed in as #{current_admin.email}", admin_index_path %></li>
+          <li><%= link_to "Sign out", destroy_admin_session_path, method: :delete %>
+        </ul>
+
       </section>
     </nav>
     <p class="notice"><%= notice %></p>
