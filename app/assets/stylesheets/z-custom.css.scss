@@ -21,6 +21,21 @@ span.thin-text {
   background-color: green;
 }
 
+div.bottom-links {
+  margin: .5em 0 1em 0;
+}
+
+div.bottom-links a {
+  display: inline-block;
+  margin: 0 .1em 1em 0;
+}
+
+/* Products Page stylings */
+
+.stretch-photo {
+  width: 100%;
+}
+
 /* Panel Callout stylings */
 div.callout {
   margin-top: 1em;
